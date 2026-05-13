@@ -820,7 +820,7 @@ const QA_ITEMS = [
     dimension: 'quality',
     question: 'Do our models have automated dbt tests?',
     verdict: 'pass',
-    summary: '67 tests across 8 models — unique, not_null, and referential integrity enforced.',
+    summary: '35 tests across 8 models — unique, not_null, and referential integrity enforced.',
     evidence:
 `// nodes.test.unique_dw_position_position_id
 {
